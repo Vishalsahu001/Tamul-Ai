@@ -28,3 +28,15 @@ This project enables **streaming Speech-to-Text and Text-to-Speech** with low la
 - **Concurrency:** asyncio, janus queues, ThreadPoolExecutor  
 
 ---
+
+conversational-podcast-ai-backend/
+│── app/
+│ ├── main.py # FastAPI entry point
+│ ├── routes/ # API & WebSocket routes
+│ ├── services/ # STT, TTS, LLM agents
+│ ├── memory/ # Redis memory integration
+│ └── utils/ # Helper functions
+│
+│── assets/ # Generated audio files
+│── requirements.txt # Dependencies
+│── README.md # Documentation
